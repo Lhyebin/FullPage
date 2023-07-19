@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 hyein portfolio</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1><a href="#main">2023 hyein portfolio</a></h1>
+        <!-- ->#main은 js anchors에서 지정한 이름앞에 #붙힌것 -->
+    </header>
+
+
+
+    <nav class="gnb">
+        <ul>
+            <li class="on"><a href="#main"><span>main</span></a></li>
+            <li><a href="#sub01"><span>sub01</span></a></li>
+            <li><a href="#sub02"><span>sub02</span></a></li>
+        </ul>
+    </nav>
+
+
+
+    <main class="Main__content">
+        <section class="section main">
+            01
+        </section>
+        <section class="section sub01 fp-enabled">
+            <div class="inner">
+                h200vh
+            </div>
+        </section>
+        <section class="section sub02">03</section>
+        <footer class="footer section fp-auto-height">
+            <!-- fp-auto-height : 풀페이지는 한 섹션에 100vh들어가는데 푸터같은경우 100vh필요없기때문에 사용-->
+            <div class="inner">
+                Lorem
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
